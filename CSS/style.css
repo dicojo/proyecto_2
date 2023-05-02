@@ -133,17 +133,40 @@ footer{
 }
 
 /* servicios */
-
-.agrupar{
+@media (min-width: 768px){
+    .agrupar{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1rem;
+    }
 }
-
 .servicios .iconos{
     height: 15rem;
     width: 15rem;
     background-color: var(--primario);
     border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
+}
+
+.servicios h3{
+    color: var(--secundario);
+}
+
+.servicios p{
+    line-height: 2; /** Interlineado */
+}
+
+.sombra{
+    max-width: 120rem;
+    border: solid black 1px;
+    margin: 0 auto;
 }
