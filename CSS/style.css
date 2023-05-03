@@ -229,3 +229,7 @@ footer{
 .campo:nth-child(4){
     grid-column: 1 / 3;
 }
+
+.alinear{
+    
+}
