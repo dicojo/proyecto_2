@@ -93,24 +93,29 @@
         </div>
         <section>
             <h2>Contacto</h2>
-            <form action="">
+            <form class="formulario" action="">
                 <fieldset>
                     <legend>Contáctenos llenando todos los campos </legend>
-                    <div>
-                        <label>Nombre</label>
-                        <input type="text" placeholder="Tu nombre">
+                    <div class="contenedor-campo">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input type="text" placeholder="Tu nombre" class="input1">
+                        </div>
+                        <div class="campo">
+                            <label>Telefono</label>
+                            <input type="text" placeholder="Tu telefono" class="input1"> 
+                        </div>
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input type="email" placeholder="Tu Email" class="input1">
+                        </div>
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input1"></textarea>
+                        </div>
                     </div>
                     <div>
-                        <label>Telefono</label>
-                        <input type="text" placeholder="Tu telefono">
-                    </div>
-                    <div>
-                        <label>Correo</label>
-                        <input type="email" placeholder="Tu Email">
-                    </div>
-                    <div>
-                        <label>Mensaje</label>
-                        <textarea></textarea>
+                        <input type="submit" value="Enviar" class="boton">
                     </div>
                 </fieldset>
             </form>
